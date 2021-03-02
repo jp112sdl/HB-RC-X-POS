@@ -9,6 +9,11 @@ Es soll erreicht werden, gezielt Dimmerwerte zu setzen.
 Der Sketch - so wie er ist - zerteilt die Skala eines Schiebe-Potis in 10 gleiche Teile.
 Jeder 10te Teil stellt einen Taster-Kanal (nur SHORT PRESS) dar.
 <br/><br/>
+
+
+![wiring](Images/wiring.png)
+<br/><br/>
+
 Je nach Position des Potis wird nun beim Drücken des "Sende/Config-Tasters" ein kurzer Tastendruck aus einem der 10 Tasterkanäle gesendet.
 <br/>
 Über je eine Direktverknüpfung mit eingestelltem Dimmwert in der Verknüpfung, lassen sich so nun direkt Dimmerwerte anfahren.
@@ -16,6 +21,4 @@ Je nach Position des Potis wird nun beim Drücken des "Sende/Config-Tasters" ein
 Verwendung findet das Gerät bei meiner Kamin-Luft-Steuerung: https://github.com/jp112sdl/HB-OU-AF-SEN-TEMP
 <br/>
 _Die Position des Schiebe-Potis entspricht dabei der Position des Luftklappenschiebers am Kamin._
-
-![wiring](Images/wiring.png)
-
+![usage](Images/IMG_2116.jpg)
